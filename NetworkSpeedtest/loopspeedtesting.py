@@ -2,6 +2,7 @@ import speedtest
 import time
 
 s = speedtest.Speedtest()
+
 s.get_best_server()
 
 for i in range(50):
